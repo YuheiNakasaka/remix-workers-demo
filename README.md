@@ -4,6 +4,7 @@
 
 - Remix
 - Cloudflare Pages
+- KV
 
 ## Development
 
