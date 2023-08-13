@@ -6,6 +6,11 @@ binding = "SESSION_KV"
 id = "ac15f8ca875d43abaceab29929326eb7"
 preview_id = "385dc7b26bf84d9b8bb74c8b1fc0ec2d"
 
+[[d1_databases]]
+binding = "DB"
+database_name = "SAMPLE_DB"
+database_id = "9f710257-8899-4c12-af15-974b9f731142"
+
 # Variable bindings. These are arbitrary, plaintext strings (similar to environment variables)
 # Note: Use secrets to store sensitive data.
 # Docs: https://developers.cloudflare.com/workers/platform/environment-variables

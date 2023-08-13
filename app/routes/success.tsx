@@ -15,7 +15,9 @@ export default function Success() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
       <h1>Success to sign in</h1>
-      <p>Hi, {user.id}</p>
+      <p>
+        Hi, {user.id}:{user.email}
+      </p>
       <Form action="/logout" method="post">
         <button type="submit">Sign Out</button>
       </Form>

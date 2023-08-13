@@ -5,8 +5,15 @@
 - Remix
 - Cloudflare Pages
 - KV
+- D1
 
 ## Development
+
+### Migration
+
+```sh
+npm run migrations:gen
+```
 
 ### Start server
 
